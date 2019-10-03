@@ -16,6 +16,7 @@ transition: all 2s;
 }
 .card:hover{
 	transform: scale(1.1);
+	cursor: pointer;
 }
 
 button{
@@ -38,4 +39,15 @@ p{
 }
 .col div{
 	display: inline-block;
+}
+.row{
+	
+	/*background-color: red;*/
+}
+.container{
+	grid-template-columns: 1fr 1fr 2fr;
+	height: 600px;
+}
+h1{
+	color: white;
 }

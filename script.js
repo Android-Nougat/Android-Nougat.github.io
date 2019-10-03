@@ -1,6 +1,13 @@
-function load(){
-// alert(1);
-var c=document.getElementsByClassName('.card');
-var d=c.getAttribute("value");
-alert(d);
-}
+
+function call(){
+	
+anime({
+  targets: 'ellipse',
+  translateY: 270,
+   // rotate: 180,
+   duration:12000,
+  // direction: 'alternate',
+  loop: true,
+  easing: 'easeInOutCirc'
+});
+    }
